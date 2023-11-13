@@ -1,6 +1,6 @@
 <h2>Stupid Coaching</h2>
 
-<h3></h3>
-<p><%= coach_answer %></p>
+<h3><%= params[:question] %></h3>
+<p><%= @answer %></p>
 
 <%= link_to "Ask a new question", ask_path %>
